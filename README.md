@@ -18,7 +18,7 @@ vote_count_det.show()
 ```
 After the filtering we were left with 63,294 records. From these records we were able to answer the following questions: 
 
-![Vine Reviews](https://github.com/john10roberts/MechaCar_Statistical_Analysis/blob/main/Resources/VineReviews.png)
+![Vine Reviews](https://github.com/john10roberts/Amazon_Vine_Analysis/blob/main/Resources/VineReviews.png)
 
 ``` ratings_total_df = vote_count_det.groupBy("vine").agg(
     count(col("vine")).alias("Total_Reviews"),
